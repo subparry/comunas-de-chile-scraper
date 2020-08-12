@@ -1,0 +1,27 @@
+{
+  "name": "chile_political_division_scraper",
+  "version": "1.0.0",
+  "description": "A simple JS scraper to obtain commune data for Chile extracted from wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "scraper",
+    "commune",
+    "comuna",
+    "chile",
+    "wikipedia",
+    "region",
+    "provincia",
+    "province"
+  ],
+  "author": "Adrian Parry",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.5.1",
+    "js-yaml": "^3.14.0"
+  }
+}
